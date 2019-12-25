@@ -15,6 +15,9 @@ exclude = ["/sgx/*"]
 #[workspace]
 #members = ["impl"]
 
+[badges]
+travis-ci = { repository = "dtolnay/typetag" }
+
 [dependencies]
 erased-serde = { git = "https://github.com/mesalock-linux/erased-serde-sgx" }
 inventory = { git = "https://github.com/mesalock-linux/inventory-sgx" }
